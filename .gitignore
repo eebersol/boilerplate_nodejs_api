@@ -1,0 +1,6 @@
+api/node_modules/
+api/public/
+api/config/config.json
+api/package-lock.json
+api/public/
+api/logs/

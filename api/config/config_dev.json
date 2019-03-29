@@ -1,0 +1,8 @@
+{
+    "front_url": "https://localhost:3000",
+    "port": 4242,
+    "host": "0.0.0.0",
+    "token": {
+        "secret": ""
+    }
+}
