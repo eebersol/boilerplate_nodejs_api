@@ -1,11 +1,11 @@
-Type            : API
-Langage         : NodeJs
-ODM             : mongoose
-Database        : MongoDb
-Process manager : PM2
-UnitTest        : Mochai
+Type            : API /
+Langage         : NodeJs /
+ODM             : mongoose /
+Database        : MongoDb /
+Process manager : PM2 /
+UnitTest        : Mochai /
 
-RUN WITH DOCKER : 
+- RUN WITH DOCKER : 
 
 Requirement : [Git, Docker]
 
@@ -19,7 +19,7 @@ Requirement : [Git, Docker]
 7. go to your API http://ip_docker:4242
 
 
-RUN WITHOUT DOCKER:
+- RUN WITHOUT DOCKER:
 
 Requirement : [Git, Npm, Node, Mongod, Mongodb]
 
@@ -38,7 +38,7 @@ Info :
 - you can modify Mochai test in /api/test
 - if you are some obscur error with Docker run delete_docker.sh and rerun docker-compose build --no-cache
 
-FOR RUN MOCHAI TEST :
+- FOR RUN MOCHAI TEST :
 
 path: api/test/test.model.js
 
