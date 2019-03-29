@@ -33,10 +33,10 @@ Requirement : [Git, Npm, Node, Mongod, Mongodb]
 
 - INFO: 
 
-- you can change listened port in api/config/config.json
-- to access container use : docker exec -it ip_docker_machine /bin/bash
-- you can modify Mochai test in /api/test
-- if you are some obscur error with Docker run delete_docker.sh and rerun docker-compose build --no-cache
+1. you can change listened port in api/config/config.json
+2. to access container use : docker exec -it ip_docker_machine /bin/bash
+3. you can modify Mochai test in /api/test
+4. if you are some obscur error with Docker run delete_docker.sh and rerun docker-compose build --no-cache
 
 - FOR RUN MOCHAI TEST :
 
