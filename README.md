@@ -31,7 +31,7 @@ Requirement : [Git, Npm, Node, Mongod, Mongodb]
 5. node app.js
 
 
-Info : 
+- INFO: 
 
 - you can change listened port in api/config/config.json
 - to access container use : docker exec -it ip_docker_machine /bin/bash
@@ -40,7 +40,7 @@ Info :
 
 - FOR RUN MOCHAI TEST :
 
-path: api/test/test.model.js
+PATH: api/test/test.model.js
 
 2 solutions : 
 
