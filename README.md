@@ -10,9 +10,9 @@ UnitTest        : Mochai /
 Requirement : [Git, Docker]
 
 1. git clone repo
-2. cp config/config_dev.json config/config.json and add all credentials
+2. cp api/config/config_dev.json api/config/config.json
 2. create machine : docker-machine create default
-3. eval $(docker-machine env default) on each terminal windodw
+3. on each terminal session : eval $(docker-machine env default)
 4. docker-compose build --no-cache
 5. docker-compose up
 6. get IP of your machine with docker-machine ls
