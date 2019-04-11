@@ -4,7 +4,7 @@ COPY package.json /tmp/package.json
 RUN cd /tmp && npm install
 RUN mkdir -p /usr/src/yourapp && cp -a /tmp/node_modules /usr/src/yourapp
 WORKDIR /usr/src/yourapp
-RUN npm install -g pm2
+RUN npm install pm2
 COPY . /usr/src/yourapp
 EXPOSE 4242
 
